@@ -12,7 +12,7 @@ namespace RecursionArraySortedOrNot
             Console.WriteLine("Array is sorted = {0}", SortedOrNot(iArray2, iArray2.Length - 1));
         }
 
-        #region If Array is Array Sorted
+        #region If Array is Sorted
         //Checking if an array is sorted recursively
         static bool SortedOrNot(int[] arr, int iMaxIndex)
         {
